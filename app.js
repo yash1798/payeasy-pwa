@@ -33,7 +33,7 @@ app.use(errorController)
 
 const dirname = path.resolve()
 
-if (process.env.MODE === "PRODUCTION") {
+if (process.env.NODE_ENV === "PRODUCTION") {
 	app.use(express.static(path.join(dirname, "/frontend/build")))
 	app.use("*", (req, res) =>
 		res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
