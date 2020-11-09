@@ -1,0 +1,45 @@
+.view-receipts {
+	justify-content: start;
+	flex-direction: column;
+	min-height: 85vh;
+	height: auto;
+}
+
+.view-receipts .menu {
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 1rem 0 3rem;
+}
+
+.view-receipts .menu h1 {
+	font-size: 1.5rem;
+	color: grey;
+}
+
+.view-receipts .menu .active {
+	color: rgb(6, 176, 255);
+}
+
+.view-receipts .transaction-card {
+	height: 10vh;
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.view-receipts .transaction-card img {
+	width: 2rem;
+}
+
+.view-receipts .transaction-card h1 {
+	font-size: 1rem;
+}
+
+.view-receipts .transaction-card h2 {
+	font-size: 1rem;
+}

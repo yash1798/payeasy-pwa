@@ -1,0 +1,23 @@
+.add-money {
+	flex-direction: column;
+	justify-content: space-around;
+	height: 85vh;
+}
+
+.add-money h1 {
+	font-size: 1.8rem;
+	color: #5557a0;
+	text-align: center;
+}
+
+.add-money .card {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-money .login-btn {
+	width: 50%;
+}

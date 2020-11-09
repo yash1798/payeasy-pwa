@@ -1,0 +1,39 @@
+.credit-card {
+	height: 130vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.credit-card h1 {
+	text-align: center;
+	color: #4a4d8b;
+	padding: 1rem;
+}
+
+.credit-card h1 span {
+	font-size: 3rem;
+	color: rgb(6, 176, 255);
+}
+
+.credit-card .card {
+	height: 80vh;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.credit-card .card h2 {
+	text-align: center;
+	color: #4a4d8b;
+	font-size: 1.5rem;
+}
+
+.credit-card .login-btn {
+	width: 70%;
+	font-weight: 500;
+	font-size: 1.3rem;
+}

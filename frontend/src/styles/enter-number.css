@@ -1,0 +1,38 @@
+.enter-number {
+	justify-content: space-around;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.enter-number h1 {
+	text-align: center;
+	color: #4a4d8b;
+	font-size: 1.8rem;
+	margin-top: 3rem;
+}
+
+.enter-number .card {
+	height: 40vh;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.enter-number .success {
+	width: 80%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(177, 250, 177);
+}
+
+.enter-number .success h2 {
+	font-size: 2rem;
+	text-align: start;
+	color: green;
+}
+
+.enter-number .success img {
+	width: 3rem;
+	margin: 1rem;
+}

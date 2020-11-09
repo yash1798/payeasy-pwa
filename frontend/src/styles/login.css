@@ -1,0 +1,38 @@
+.login {
+	position: relative;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.login .card {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.login .header {
+	position: absolute;
+	left: 20%;
+}
+
+.login .login-btn {
+	width: 50%;
+	border-radius: 30px;
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+.login h2 {
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 2.5rem;
+}
+
+.login h2 .link {
+	color: rgb(21, 181, 255);
+}

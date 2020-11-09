@@ -1,0 +1,20 @@
+.personal-info {
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.personal-info h1 {
+	color: #5557a0;
+	margin-top: 4rem;
+}
+
+.personal-info .card {
+	height: 50vh;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.personal-info .login-btn {
+	font-weight: 700;
+}
